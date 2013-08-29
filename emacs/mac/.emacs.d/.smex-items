@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ shell
+ eval-buffer
+ cd
+ 5x5
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (eval-buffer . 3)
+ (package-list-packages . 2)
+ (clojure-mode . 1)
+ (shell . 1)
+)

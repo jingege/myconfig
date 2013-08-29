@@ -1,0 +1,5 @@
+;; -*- coding: utf-8-unix -*-
+;; Automatically written history of nREPL session
+;; Edit at your own risk
+
+("(use 'cloprops.core)" "1" "(use 'cloprops.core)" "D" " vdDD" "m" "e" "v" " (test2)tv" " " "(test2)" "(use 'cloprops.core)" "(use 'cljprops.core)" "(use 'clopros.core)")
