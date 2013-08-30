@@ -1,4 +1,14 @@
-((("defmacro" .
+((("ido-mode" .
+   [1 0 0 0 0 0 0 0])
+  ("defmacro" .
    [0 0 0 1 0 0 0 0])
   ("def" .
+   [1 0 0])
+  ("require" .
+   [1 0 0 0 0 1 0])
+  ("lusty-explorer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("display-time-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("use" .
    [1 0 0])))

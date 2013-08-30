@@ -1,4 +1,5 @@
-(setq load-path (cons "/Users/jingege/Documents/opensource/erlang/otp_src_R15B02/lib/tools/emacs" load-path))
+;;erlang plugin
+(setq load-path (cons "~/Documents/opensource/erlang/otp_src_R15B02/lib/tools/emacs" load-path))
 (setq erlang-root-dir "")
 (setq exec-path (cons "" exec-path))
 (require 'erlang-start)
@@ -14,6 +15,7 @@
 
 (setenv "PATH" (getenv "PATH"))
 
+;;package sites
 (require 'package)
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/"))
@@ -21,8 +23,8 @@
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
 
+;;nrepl
 (require 'nrepl)
-;; Configure nrepl.el
 (setq nrepl-hide-special-buffers t)
 (setq nrepl-popup-stacktraces-in-repl t)
 (setq nrepl-history-file "~/.emacs.d/nrepl-history")
@@ -89,7 +91,7 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 (setq yas-snippet-dirs
-      '("~/.emacs.d/snippets"))            ;; personal snippet
+      '("~/.emacs.d/snippets")) ;; personal snippet
 
 ;;rainbow delimiters
 (require 'rainbow-delimiters)
@@ -102,3 +104,15 @@
 (require 'auto-complete-config)
 (ac-config-default)
 
+;;ido
+(require 'ido)
+(ido-mode t)
+
+;;lusty explorer
+(require 'lusty-explorer)
+
+;;display time mode
+(display-time-mode 1)
+
+;;y-or-n-p
+(defalias 'yes-or-no-p 'y-or-n-p)

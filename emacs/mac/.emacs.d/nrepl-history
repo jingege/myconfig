@@ -2,4 +2,4 @@
 ;; Automatically written history of nREPL session
 ;; Edit at your own risk
 
-("(use 'cloprops.core)" "1" "(use 'cloprops.core)" "D" " vdDD" "m" "e" "v" " (test2)tv" " " "(test2)" "(use 'cloprops.core)" "(use 'cljprops.core)" "(use 'clopros.core)")
+("(class (property :b))" "(class (property :a))" "(property :b)" "(property :a)" "(update :a now)" "(str @properties)" "@property" "(@properties)" "(update :a \"now\")" "(property (keyword \"a\"))" "(load-props \"/Users/jingege/a.properties\")" "(property (keyword \"a\"))" "(use 'cloprops.core :reload)" "(update :a \"now\")" "(property (keyword \"a\"))" "(find-doc update)" "(help-doc update)" "update" "(update [:a \"now\"])" "(update :a \"now\")" "(property (keyword \"a\"))" "(load-props \"/Users/jingege/a.properties\")" "(use 'cloprops.core :reload)" "(use 'cloprops.core)" "1" "(use 'cloprops.core)" "D" " vdDD" "m" "e" "v" " (test2)tv" " " "(test2)" "(use 'cloprops.core)" "(use 'cljprops.core)" "(use 'clopros.core)")
